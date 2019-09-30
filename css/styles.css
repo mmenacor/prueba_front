@@ -1,0 +1,278 @@
+    * {
+        box-sizing: border-box
+    }
+    
+    .container {}
+    
+    .anuncio {
+        /* border-bottom: solid 1px gray;
+    border-top: solid 1px gray; */
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: relative;
+        margin: auto;
+    }
+    
+    .col-6 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .image {
+        width: 203px;
+        height: 203px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .sports {
+        background: url('../img/ciclista.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .environment {
+        background: url('../img/arbustos.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .pais {
+        background: url('../img/pais.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .politica {
+        background: url('../img/politica.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .tecnologia {
+        background: url('../img/tecnologia.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .farandula {
+        background: url('../img/farandula.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .categoria {
+        height: 25px;
+        margin-top: 20px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: Roboto;
+        color: #333333;
+        font-weight: bold;
+        background-color: #bad405;
+    }
+    
+    .detalles {
+        padding-left: 16px;
+        padding-right: 8px;
+        margin-left: 0px;
+        text-align: left;
+        width: 304px;
+        display: block
+    }
+    
+    hr {
+        color: #f4f4f4;
+        margin-bottom: 8px;
+    }
+    
+    h1 {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 21px;
+        color: #333333;
+        margin-bottom: 8px;
+    }
+    
+    #fecha {
+        margin-left: 0px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 12px;
+        color: #9f9d9d
+    }
+    
+    .resumen {
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 24px;
+    }
+    
+    .icons {
+        float: right;
+        margin-right: 16px;
+        text-align: right;
+        height: 37px;
+        display: relative;
+        cursor: pointer;
+    }
+    
+    #likes {
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 12px;
+        color: #666666;
+    }
+    
+    .icons div {
+        width: 37px;
+        height: 37px;
+        margin-left: 8px;
+        display: inline-block !important;
+        text-align: center;
+    }
+    
+    .icons i {
+        vertical-align: middle;
+    }
+    
+    .icons img {
+        height: 22px;
+        color: #333333;
+    }
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .dots {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10px
+    }
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: #ffff;
+        font-weight: bold;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .prev:hover,
+    .next:hover {
+        background-color: #bad405;
+        color: #ffff;
+        padding: 10px 15px;
+        border-radius: 100%;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #bad405;
+    }
+    
+    .mySlides {
+        display: none;
+    }
+    
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    .layout {
+        margin-bottom: 20px;
+    }
+    
+    .general {
+        width: 95%;
+        height: 426px;
+        padding-right: 40px;
+        border-radius: 10px 0px 0px 10px;
+        background: url('../img/derrumbe.jpg') no-repeat center top;
+        background-size: cover;
+    }
+    
+    .detalles-general {
+        padding-left: 16px;
+        margin-left: 0px;
+        text-align: left;
+        width: 100%;
+        display: block
+    }
+    
+    .detalles-general p {
+        margin-right: 16px;
+    }
+    
+    .fill img {
+        fill: #bad405;
+    }
+    
+    .paginacion {
+        display: block !important;
+    }
+    
+    .paginacion li {
+        text-align: center;
+        display: inline;
+        color: #666666;
+        margin-right: 10px;
+    }
+    
+    .paginacion a:hover {
+        background-color: #bad405;
+        padding: 10px 15px;
+        border-radius: 100%;
+    }
+    
+    .paginacion li:first-child a {
+        background-color: #bad405;
+        padding: 10px 15px;
+        border-radius: 100%;
+    }
+    
+    .paginacion a {
+        color: #666666;
+        text-decoration: none;
+    }
+    
+    .mas-noticias {
+        cursor: pointer;
+        font-weight: bold;
+        font-family: Roboto;
+        color: #333333;
+        margin-right: 60px;
+    }
